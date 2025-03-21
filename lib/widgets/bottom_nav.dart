@@ -100,12 +100,10 @@ class _BottomNavState extends State<BottomNav>
           width: 48,
           decoration: BoxDecoration(
             shape: BoxShape.circle,
-            gradient: LinearGradient(
-              colors: [
-                Theme.of(context).colorScheme.primary,
-                Theme.of(context).colorScheme.secondary,
-              ],
-            ),
+            color:
+                Theme.of(
+                  context,
+                ).colorScheme.primary, // Use solid color instead of gradient
           ),
           child: Center(
             child: Icon(Icons.add_rounded, color: Colors.white, size: 28),
