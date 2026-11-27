@@ -43,5 +43,5 @@ app.*.map.json
 
 # Environment files
 .gitignore
-config.bat
 node_modules
+.env*
